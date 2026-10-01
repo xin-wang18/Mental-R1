@@ -84,3 +84,7 @@ tensorboard --logdir ./runs/mental-r1
 ```
 
 The script saves the final model through `trainer.save_model(output_dir)`. Automatic intermediate checkpoints are disabled with `save_strategy="no"`, and the current training call does not resume from a checkpoint.
+
+## License
+
+The code in this repository is licensed under the [Apache License 2.0](LICENSE). Portions of the trainer implementation are adapted from [Hugging Face TRL v0.21.0](https://github.com/huggingface/trl/tree/v0.21.0), with upstream copyright and license notices retained in `main.py`.
