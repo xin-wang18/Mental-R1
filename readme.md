@@ -4,6 +4,10 @@
 
 This repository contains the official implementation of **Cognitive Relative Policy Optimization (CRPO)**, the reinforcement learning framework used to train **Mental-R1**, as presented in our paper *Mental-R1: Aligning LLM Reasoning for Mental Health Assessment*. Please refer to the paper for a full description of the method.
 
+<p align="center">
+  <img src="framework.png" width="95%">
+</p>
+
 ## Contents
 
 - [Environment and Installation](#environment-and-installation)
