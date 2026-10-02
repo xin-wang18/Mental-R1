@@ -88,3 +88,15 @@ The script saves the final model through `trainer.save_model(output_dir)`. Autom
 ## License
 
 The code in this repository is licensed under the [Apache License 2.0](LICENSE). Portions of the trainer implementation are adapted from [Hugging Face TRL v0.21.0](https://github.com/huggingface/trl/tree/v0.21.0), with upstream copyright and license notices retained in `main.py`.
+
+## Citation
+
+If you find this work useful, please consider citing:
+
+```bibtex
+@article{wang2026mentalr1,
+  title   = {Mental-R1: Aligning LLM Reasoning for Mental Health Assessment},
+  author  = {Wang, Xin and Gao, Boyan and Yang, Yibo and Clifton, David A.},
+  journal = {arXiv preprint arXiv:2606.13176},
+  year    = {2026}
+}
