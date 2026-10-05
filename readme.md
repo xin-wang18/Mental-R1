@@ -48,16 +48,16 @@ The launch instructions below assume the single-file training script is named `t
 
 ## Benchmark Tasks
 
-| Dataset | Assessment task | Output labels in the paper's prompt templates |
-|---|---|---|
-| DATD | Anxiety or depression risk | `Yes`, `No` |
-| RSD | Suicide-related content severity | `Indicator`, `Ideation`, `Behavior`, `Attempt` |
-| DepSeverity | Depression severity | `Minimum`, `Mild`, `Moderate`, `Severe` |
-| LT-EDI | Depression risk level | `Not depressed`, `Moderately depressed`, `Severely depressed` |
-| SDCNL | Suicide risk | `Yes`, `No` |
-| Dreaddit | Psychological stress | `Yes`, `No` |
-| FIG | Loneliness detection | `Yes`, `No` |
-| LID | Loneliness intensity | `[1–2]`, `[2–3]`, `[3–4]`, `[4–5]` |
+| Dataset | Assessment task | 
+|---|---|
+| DATD | Anxiety or depression risk |
+| RSD | Suicide-related content severity |
+| DepSeverity | Depression severity |
+| LT-EDI | Depression risk level |
+| SDCNL | Suicide risk |
+| Dreaddit | Psychological stress |
+| FIG | Loneliness detection |
+| LID | Loneliness intensity |
 
 
 ## Training
