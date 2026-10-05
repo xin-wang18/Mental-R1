@@ -1,5 +1,22 @@
 # Mental-R1: Aligning LLM Reasoning for Mental Health Assessment
+<p align="center">
+  <a href="https://arxiv.org/abs/2606.13176">
+    <img src="https://img.shields.io/badge/arXiv-2606.13176-b31b1b.svg">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg">
+  </a>
+</p>
 
+<p align="center">
+  <b>Xin Wang</b> · <b>Boyan Gao</b> · <b>Yibo Yang</b> · <b>David A. Clifton</b>
+</p>
+
+<p align="center">
+  <a href="https://www.ox.ac.uk/"><b>University of Oxford</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://en.sjtu.edu.cn/"><b>Shanghai Jiao Tong University</b></a>
+</p>
 <!-- **Cognitive Relative Policy Optimization (CRPO) for structured, text-based mental health assessment.** -->
 
 This repository contains the official implementation of **Cognitive Relative Policy Optimization (CRPO)**, the reinforcement learning framework used to train **Mental-R1**, as presented in our paper *Mental-R1: Aligning LLM Reasoning for Mental Health Assessment*. Please refer to the paper for a full description of the method.
