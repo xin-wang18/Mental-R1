@@ -61,9 +61,7 @@ beta_schedule = {
 #     }
 def make_conversation(example):
     user_text = example["mental_prompt"] + example["text"]
-    
-    # 手动拼接 Qwen 的 ChatML 格式，直接绕过 TRL 的 apply_chat_template 陷阱！
-    # 注意最后的 assistant 下面，我们直接给它写好了 <think>\n<stimulus> 并且没有 <|im_end|>
+
     prompt_str = (
         f"<|im_start|>system\n{SYSTEM_PROMPT}<|im_end|>\n"
         f"<|im_start|>user\n{user_text}<|im_end|>\n"
@@ -106,17 +104,16 @@ def build_stage_masks_via_offsets(tokenizer, completion_ids, completion_mask):
             close_pat = f"</{stage}>"
             m_open  = re.search(re.escape(open_pat), text)
             m_close = re.search(re.escape(close_pat), text)
-            # --- 特殊处理 stimulus 阶段 ---
+
             if stage == "stimulus" and not m_open:
-                # 如果没有找到 <stimulus>，但找到了 </stimulus>
-                # 说明 <stimulus> 在 Prompt 里，那么内容从 text 索引 0 开始
+
                 if m_close:
                     char_start = 0
                     char_end   = m_close.start()
                 else:
                     continue
             else:
-                # 正常匹配逻辑
+
                 if not (m_open and m_close and m_open.end() <= m_close.start()):
                     continue
                 char_start = m_open.end()
@@ -224,7 +221,6 @@ def format_reward(completions, **kwargs):
 
 def accuracy_reward(completions, **kwargs):
     gt = kwargs['answer']
-    # 接收来自 dataset 的 dataset_id 列
     dataset_ids = kwargs['dataset_id'] 
     
     rewards = []
@@ -233,12 +229,10 @@ def accuracy_reward(completions, **kwargs):
         m = re.search(r"<answer>(.*?)</answer>", content, re.DOTALL)
         ans = m.group(1).strip() if m else ""
 
-        # 获取预计算的权重 (若发生异常找不到则回退到 1.0)
         reward_scale = W_COMBINED.get(ds_id, {}).get(str(expected), 1.0)
         # print(ds_id,expected,reward_scale)
         # exit()
 
-        # 匹配检查
         # print("expected: ",expected)
         # print("ans: ",ans)
         # if ans == "":
@@ -275,7 +269,7 @@ class StageAwareGRPODynamicOnlyTrainer(GRPOTrainer):
         compute_entropy=False,
         **kwargs,
     ):
-        # 此实现适用于当前的纯文本模型。
+
         if any(value is not None for value in kwargs.values()):
             raise ValueError("This override supports text-only training.")
 
@@ -292,17 +286,17 @@ class StageAwareGRPODynamicOnlyTrainer(GRPOTrainer):
                 "attention_mask": mask,
             }
 
-            # 多保留一个位置，用于下一 token 预测的对齐。
+
             if "logits_to_keep" in self.model_kwarg_keys:
                 forward_args["logits_to_keep"] = logits_to_keep + 1
 
             logits = model(**forward_args).logits
 
-            # 最后一个位置预测序列之外的 token，去掉它。
+
             logits = logits[:, :-1, :]
             logits = logits[:, -logits_to_keep:, :]
 
-            # 保留 TRL 原有的温度缩放。
+
             logits = logits / self.temperature
             targets = ids[:, -logits_to_keep:]
 
@@ -311,8 +305,7 @@ class StageAwareGRPODynamicOnlyTrainer(GRPOTrainer):
             )
 
             if compute_entropy:
-                # 关键修改：这里不使用 no_grad 或 detach。
-                # 用 float32 计算完整词表熵，改善数值稳定性。
+
                 entropy_parts.append(
                     entropy_from_logits(logits.float())
                 )
@@ -502,7 +495,7 @@ processing_class = tokenizer  # for HF "processing_class" API
 root_folder = "/root/Mental-Entropy/dataset_new"
 train_dataset = None
 
-dataset_stats = {}  # 用于记录每个数据集和类别的样本数量
+dataset_stats = {} 
 
 for dataset_name in os.listdir(root_folder):
     dpath = os.path.join(root_folder, dataset_name)
@@ -515,14 +508,11 @@ for dataset_name in os.listdir(root_folder):
     print(f"Processing {dataset_name} ...")
     train_df = pd.read_csv(tr)[["text", "label", "mental_prompt"]]
 
-    # 1. 记录统计信息 (基于训练集)
     class_counts = train_df['label'].astype(str).value_counts().to_dict()
     dataset_stats[dataset_name] = class_counts
 
-    # 2. 注入 dataset_id 列，以便后续传递给 reward_func
     train_df["dataset_id"] = dataset_name
 
-    # 3. 转换为 Dataset (dataset_id 不在 remove_columns 中，会被保留)
     dtr = Dataset.from_pandas(train_df).map(make_conversation, remove_columns=['text', 'label', 'mental_prompt'])
 
     train_dataset = dtr if train_dataset is None else concatenate_datasets([train_dataset, dtr])
@@ -536,19 +526,19 @@ W_D = {}
 W_C = {}
 
 if dataset_stats:
-    # 计算数据集权重 W_D
+
     D = len(dataset_stats)
     n_d = {d: sum(counts.values()) for d, counts in dataset_stats.items()}
     sum_inv_n_d = sum(1.0 / count for count in n_d.values())
     avg_inv_n_d = sum_inv_n_d / D
     W_D = {d: (1.0 / count) / avg_inv_n_d for d, count in n_d.items()}
 
-    # 计算类别权重 W_C
+
     for d, counts in dataset_stats.items():
         C = len(counts)
         sum_inv_n_j = sum(1.0 / count for count in counts.values())
         avg_inv_n_j = sum_inv_n_j / C
-        # 存为字符串 key 以匹配 kwargs['answer']
+
         W_C[d] = {c: (1.0 / count) / avg_inv_n_j for c, count in counts.items()}
 W_COMBINED = {}
 for d in dataset_stats.keys():
@@ -556,7 +546,7 @@ for d in dataset_stats.keys():
     curr_w_d = W_D.get(d, 1.0)
     for c in W_C[d].keys():
         curr_w_c = W_C[d].get(c, 1.0)
-        # 提前算出平方根并存起来
+
         W_COMBINED[d][c] = math.sqrt(curr_w_c * curr_w_d)
 
 print("\nComputed Weights combined (W_COMBINED):", W_COMBINED)
