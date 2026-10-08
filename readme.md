@@ -44,14 +44,14 @@ From the repository directory, install the pinned dependencies into an environme
 python -m pip install -r requirements.txt
 ```
 
-The launch instructions below assume the single-file training script is named `train.py` and the actual DeepSpeed configuration is supplied as `deepspeed_zero2.json`.
+The launch instructions below assume the single-file training script is named `main.py` and the actual DeepSpeed configuration is supplied as `deepspeed_zero2.json`.
 
 
 ## Training
 
 ### 1. Configure Local Paths
 
-Edit the following settings in `train.py` for your environment:
+Edit the following settings in `main.py` for your environment:
 
 ```python
 model_name = "/path/to/Qwen3-8B"
