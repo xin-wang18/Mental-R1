@@ -1,0 +1,754 @@
+text,label,mental_prompt
+Bbq tent Is it possible to suicide from charcoal bbq in a tent?,Behavior,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+Manga is my life support I think I would be dead by now without these weekly releases. Thank you manga.,Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+" things will come my way? What good things, memories, people will I miss if I do this now. So I stopped myself and kept my Makeshift noose. And I just took a nap. And I woke up and decided to go here.",Behavior,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"This post is a waste of time I should be planning to kill myself, killing myself or being dead right now, instead I browse and type here cause Im too much of a puss to go for it tonight.",Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"Im tired Im tired, I just wish I knew there was something after death. Im afraid, I hate it, I wish I wasn't. I wish I could just dissappear without being scared but no im a pussy ab that too.",Indicator,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+" feel the way I do? I have no issues with myself, but the world never fails to remind me how horrible it is. All words are meaningless. Every action is malicious. Suicide has become my quick solution.",Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+My sadness makes my stomach churn I think and I’m in pain so I cut myself to feel better but feel worse,Attempt,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+o end it been struggle with it since about 5th-6th school. I’m a Failure. I feel like whatever I say no matter to who is pointless. Explaining anything feels like I’m just opening them up to bully me.,Behavior,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+for doing this to me. Fuck you for being able to manipulate everything to your advantage. Fuck you for lying to everyone around you and making them dislike me. I will no longer feel this pain anymore.,Behavior,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"I fear that the only thing I will ever be is a suicide statistic Just some number or percentile on some yearly report on teen suicide, nothing more.",Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+ this because she views people who kill themselves as weak. My siblings have often told me that suicide is never the answer but I feel like I just need to do it. I'm sorry if this was too long a read.,Attempt,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"my patience has been drained I keep telling myself ''just live one more day, maybe something will happen'' and then boom. all days are the fucking same. I wish I had the guts to just DIE.",Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"Social Anxiety, No Friends, Depression and Loneliness, just feel like ending it all... ",Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+I don’t know what’s real anymore I’m thinking myself to death. Idk what to do.,Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+please convince me to take my pills and hang myself. give me the courage,Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"utes. My dignity &amp; pride was destroyed. He left me there like I was nothing, I was used just for his enjoyment &amp; nothing else. There’s no one I can talk to. I’m so alone. No one fucking cares.",Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"I'm uncertain about what to think about myself. I dont feel depressed, and I'm not greatly suffering like others I know. Yet I would still rather be dead. Maybe some insight  would help me understand.",Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"I think I’m going to do it soon They said it would get better but it never did. 
+
+Sorry to everyone who actually likes me, you deserve someone so much better than me in your life.",Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+The fucking suicide hotline hung up on me ,Indicator,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+pathy or compassion really I'm just looking to know if anyone else feels like the release is better as their life is a bust... To say hey jesus or whatever I had an impossible situation can I go back?,Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+how do people get the courage to even attempt why am i such a fucking pussy about it. i’ll hold the knife to my throat or wrist and never do it. i wish i had the fucking balls to do it.,Behavior,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"Constantly internally screaming I’m done. Having to suffer with a toxic AF strict family in lockdown and just being like I said, SO DONE.",Indicator,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"ow hard I push I can’t move this wall. 
+
+I just want to feel released from the people around me so that I can go. I want to be able to stop causing them distress, and I want to stop hurting every day.",Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"t. Damn. It's all so pointless and sad. 
+
+I tried reaching out but they only tried to help me for like 2 seconds which is fine. Whatever. 
+
+In the end I am truly in this alone. Maybe a fire..
+
+Goodbye",Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"e we were trying to get her to therapy, but she refused. She's tried to commit suicide two times in one in half years. What is the best way to handle a suicidal person like this? Was my friend, right?",Indicator,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+im gonna kms i dont think im strong enough for this anymore,Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"Life's a bitch and then you get cancer Thought it couldn't get any worse. 
+
+It could.",Indicator,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"o keep staying where I'm at or go to the streets as all shelters in my county are full and it's california so it doesn't get cold , so clearly you can live outside blah blah blah.
+Just venting I guess",Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+Sorry iam too cowrd ,Indicator,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+Im fucking done I just want to die i dont know how to do it. I dont eant my family to have to pay for my coffin. How can i do it without gettkng found. I dont want therapy,Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+tice that she actually needs help and that they are harming her. she has a really bad relation with her parents. they argue all the time and dont take her seriously. what can she do? what should i do?,Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"I feel so awful right now. I feel so cold Can you guys share your success stories, how you got up from from your bottom to the best? I want to feel hopeful. I want to hear stories.",Indicator,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"i feel horrible i wanna die and its so miserable being alive because one of your friends will be sad   
+and i dont wanna die if shell be sad. 
+but. time will pass and she will forget",Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"A question So I have this big ass vain running through my foot, what would happen if I'd just cut deep enough to reach it and slice it open?",Behavior,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"It’s been 5 months And every day of those 5 months have been me just trying to not feel shitty.
+
+It’s been 5 months and I still feel shitty.",Indicator,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+Where would you hold a pistol to your head for the most successful suicide Not suicidal just curious,Indicator,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+ happy and loved and that it's possible. Because I just don't think it is. I don't think anyone will ever love me or want me the way I need and I don't see any point in going on with a life like this.,Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+ wouldn't wake up this morning but here I am a failure once again the worst part about it is as scared as I was I was content in knowing that if I was gone I wouldn't be able to let anyone down again.,Attempt,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"Has anyone seen the documentary ""Evelyn""? If so, what did you think?",Indicator,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"k to my old brain. i wasn’t a good person, and i wasn’t happy, but atleast it wasn’t this.
+
+i’m too cowardly to kill myself. but i don’t know how i can continue. i’m just wishing to die at this point.",Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"If I call the cops, can they pick up my body and clean up so the house isn't a mess? ",Indicator,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"ne, im not bothering you, why should you bother me.
+
+pls dont let there be a fucking political debate in the comments, i am honestly tired of it. just let me die without it being a fucking percentage.",Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"n I grew up, no one cared. Not a single person. Hearing that was a stab in the chest. Some of us are alone. Our parents are abusers, our friends barely exist. If no one cares, I hope you find someone.",Indicator,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"Let me end it all I'm   
+
+
+Just  
+
+
+Tired.",Indicator,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"i feel lonely and overwhelmed, and am seeking for help I feel completely down and with scary suicidal thoughts. Can you please help me to reduce the anxiety? 
+Thank you all.",Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+It's all about perspective And that makes me feel better. It's not my fault I lost. Right ? Losing doesnt make me a loser in God's eyes. This world is just cruel.,Indicator,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+same if I end up killing myself. I just want her to be somewhat prepared and be ok with it whenever I decide to do it. She still has 2 other kids to live for. I just hope she'll be alright in the end.,Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"the same thought keeps going through my head ""nothings real its all just me I can end it all whenever I want"" ",Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+Fear I’ve tried to kill myself before but I’m just curious if anyone else is just afraid to actually do it,Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"nt see any future ahead for me. I am so scared that once my mum passes I will be joining her as well.
+
+I regret all the pain I ever caused and im so sorry for all the pain I will cause with my passing",Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"How do you start talking to people again? What do you say? I don't know, it's been so long since a ""normal"" interaction... ",Indicator,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+Sunday. Thats gonna be my last day on this shitty world. Time to restart hopefully imma get better stats next time,Behavior,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+ss I go to her. She loves me so much and only me and I just can’t bring myself to leave her. She’s getting old though and it breaks my heart. Idk what I’ll do without her. Then I’ll really be alone :(,Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+im scared i cant do this anymore. i cant. i really cant. i tried before and im still alive. i wanna do it again and i want it to work im so tired,Attempt,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+Didn’t get the job I’ve been unemployed for too long and thought it was finally gonna end.  I hate this. I hate being a failure.,Indicator,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"to talk to, I need a way out, I want to cancel this interview that is worthless and I will fail and it will make me feel worse, and I want to stop living. I am really tired of myself and this reality.",Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"since I was like 8 something bad happens to me I just don’t know how much longer I can last I’m an so depressed and I feel lost and so guilty 
+Should I just kill myself and finally be at peace at last",Behavior,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+ends think I’m not being weak and I haven’t even told the people I go to church because I’m afraid of them judging me. Now I’m just fighting this battle alone. So what is the point anymore I’ve failed,Indicator,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+What is the easiest most accessible way of committing suicide? ,Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+Smoking is really the only thing that is keeping me going these days. Idk what I would do without it.,Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+Planning years in advance. Anyone planning suicide years in advance and kinda checking boxes one by one to make sure everything is in order once you do it?,Behavior,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+No one can do anything about the suicide and depression epidemics in any country. Its hopeless. There is nothing anyone can or will do.,Indicator,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"e would be better.
+
+Not sure how to collect my thoughts so I kind of went on a rant. Any advice? Its obviously not normal for me to be having suicidal thoughts when nothing is necessarily going wrong.",Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"I tried to die but it didnt work Why is dying so hard
+
+All I got was a stomach ache that lasted for 7+ hours",Attempt,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+people for this. All I wanted was an easy way out for when I needed it - fuck. Do you think they would report me for buying it? Why sell it tho if you would report people for buying? damn I screwed up,Behavior,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"going to travel the world and kill myself before 30 anyone want to join me, serious inquiries only.",Behavior,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+I just want to die ,Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+he is released because everything is still fresh but that would mean having to spend the holidays completely alone for the first time. Does anyone have any advice about... Anything? I am so desperate.,Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+In 9 hours I will be dead (stabbing my wrists) Will it hurt badly? I will just lay in bed and do it. I can’t do it in the sink,Behavior,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+I'm a disabled person with chronic disease. Is it selfish for me to continue living despite being the burden to others ,Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+s aggressive and has severe anxiety so it's a good chance I wouldn't be able to re-home her in the event that I commit suicide. I'm trying to hang on for my dog but I don't know how much longer I can.,Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"If there is a hell or heaven, I hope I get to commit suicide there also lol",Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+Has anyone felt suicidal after a friendship with someone with untreated Borderline Personality Disorder (someone not in therapy)? ,Indicator,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+er because I never have done it myself even though I've told her I'm suicidal multiple times. I feel like she's been through worse and I should just shut up. I'm such a pussy. my trauma means nothing.,Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+failed to kill myself I really can't do anything right i wanna try again but now im scared and i domt know why. it's not like anyone will notice me once im gone,Attempt,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+how painful is getting hit by a car? I fancy just strolling into some traffic but I’m unsure of how painful it would be.,Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"I was okay for about 11 days. Now im back to feeling empty and suicidal. Whats wrong with me? ☹
+
+Why are these thoughts coming back?",Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+" cracing slamming my door on my fingers again. Ive also been expericing more delusions and ""episodes"" (rolling on the floor hysterically crying not able to stop myself from self harming and screaming)",Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+ already in my 30s. I haven’t even been in a relationship before coz I fear intimacy and feel worthless. I’m tired. I want to sleep forever but I don’t know how to die with certainty and without pain.,Behavior,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"I’m severely depressed and need help 
+Can someone please help me? I’m so sad and depressed and I honestly feel like dying.",Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+I hate crying alone in my room at 1:00 am every night. For years.. For a decade. alone. alone. alone ,Indicator,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+doesn't want to call Chíld Protective Services because he thinks that they are gonna take away his phone and pc so he can't keep chatting with me. I really don't know what to do. Please help me there.,Indicator,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+Everyday that I am alive I feel more and more pathetic I hate myself so much. I am so ugly and worthless. I want to Kill myself so badly and punish myself for being so terrible,Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+g lonely. Don't know when the lights will be off for me. Haven't exactly gave up on life just yet and seeking for a little motivation and change-of-life before more problems kick in and make it worse.,Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+Can someone harvest my organs? Hi i am looking for someone to kill me and hide my body so that my family will never find out. I am happy for u to chop me up as long as i never get found again,Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"I've hurt then pushed away everyone I ever cared about, I don't deserve to live anymore. ",Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+" I can find a way to off myself soon, clearly I’m not wanted here by anyone anyway. So many pretenders, I don’t think anyone would truly miss me and would get over my death quick. That makes it easier",Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+Money Even killing yourself costs money.. I called the suicide hotline to tell them ab my problems and all they said was to keep my head up. Im growing more and more crazy every day,Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+" luckily i vomited. for the next few hours i had a heartburn. i gave my mom the letter and i said i swallowed bleach. im doing better now, my mom is taking care of me now, i hope no one does the same.",Attempt,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"My aunt begged me to go to therapy on my uncles birthday I don't get it, what's therapy gonna do for me that weed hasn't done  for me?",Indicator,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+ODing on Blood pressure meds? I have access to 30 blood pressure pills. You think it'll kill me or just fuck me up?,Behavior,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+o come. Another part of me is also holding onto the hope life gets better but at the same time deep down I know i'm gonna suffer for a really long time before I ever feel any ounce of happiness again.,Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"Can't imagine a future with me in it Anytime I imagine the future, I'm usually dead. I can't imagine a future where I don't kill myself.",Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"h these thoughts and i was wondering how i can help, he has been asking for a lot of space and im refusing to give it to him , am i doing the right thing? 
+i would greatly appreciate any advice please",Indicator,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"eek help, I can't do it. I am too sensitive and everything is too much doom. It is ridiculous, what I cannot put up with. The worst part is I have spent too long portraying my okay-ness. No one knows.",Indicator,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+l processing everything and still feel weird even Calling it an OD. Sometimes all these thoughts just pop up and then I feel bad asking my boyfriend and saying these things because he’s trying to heal,Attempt,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+I wonder why I shouldn’t... ...why I shouldn’t just take a shotgun a turn my brain into a slushee. I’m tired.,Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+I dont get why i dont care about myself but yet I come on here and but others before me and my life keeps getting worse off ,Indicator,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+"yself really badly"". It's almost like Tourettes but I know it's not. I also find myself putting a finger gun in my mouth and pretending to blow my brains out... am I crazy or can anyone else relate???",Behavior,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+Must kill myself tomorrow No job. No life. No clothes. Nothing to say. Nothing to do. Nowhere to go. Only going to get worse.,Behavior,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+Please kill me now please. and dont let me survive.,Ideation,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
+I’m goin out big I don’t think I have the guts to cut my wrists or drown myself. Is it possible to get fat enough to kill myself? I am (m)id 20’s.,Behavior,"Determine the level of suicide-related content for the individual who made the following statement.
+- Answer with one of the following options:
+  - ""Indicator""
+  - ""Ideation""
+  - ""Behavior""
+  - ""Attempt""
+Statement:"
