@@ -28,8 +28,8 @@ This repository contains the official implementation of **Cognitive Relative Pol
 ## Contents
 
 - [Environment and Installation](#environment-and-installation)
-- [Benchmark Tasks](#benchmark-tasks)
 - [Training](#training)
+- [Benchmark](#benchmark)
 - [Citation](#citation)
 
 ## Environment and Installation
@@ -45,19 +45,6 @@ python -m pip install -r requirements.txt
 ```
 
 The launch instructions below assume the single-file training script is named `train.py` and the actual DeepSpeed configuration is supplied as `deepspeed_zero2.json`.
-
-## Benchmark Tasks
-
-| Dataset | Assessment task | 
-|---|---|
-| DATD | Anxiety or depression risk |
-| RSD | Suicide-related content severity |
-| DepSeverity | Depression severity |
-| LT-EDI | Depression risk level |
-| SDCNL | Suicide risk |
-| Dreaddit | Psychological stress |
-| FIG | Loneliness detection |
-| LID | Loneliness intensity |
 
 
 ## Training
@@ -101,6 +88,20 @@ tensorboard --logdir ./runs/mental-r1
 ```
 
 The script saves the final model through `trainer.save_model(output_dir)`. Automatic intermediate checkpoints are disabled with `save_strategy="no"`, and the current training call does not resume from a checkpoint.
+
+## Benchmark
+
+| Dataset | Assessment task | 
+|---|---|
+| DATD | Anxiety or depression risk |
+| RSD | Suicide-related content severity |
+| DepSeverity | Depression severity |
+| LT-EDI | Depression risk level |
+| SDCNL | Suicide risk |
+| Dreaddit | Psychological stress |
+| FIG | Loneliness detection |
+| LID | Loneliness intensity |
+
 
 ## License
 
